@@ -1,0 +1,44 @@
+# MOSS System .gitignore
+# Keep the repo clean and avoid syncing sensitive/unnecessary files
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Transcripts and sensitive source files (keep in client-local instance only)
+# Uncomment these if you want to exclude transcripts from sync:
+# **/transcripts/
+# **/00-Inbox/
+
+# Large binary files (presentations, etc. - optional)
+# *.pptx
+# *.xlsx
+# *.pdf
+
+# Node modules (if any tooling is added later)
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
